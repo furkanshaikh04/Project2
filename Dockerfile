@@ -5,5 +5,5 @@ RUN curl -L -o photogenic.zip https://www.free-css.com/assets/files/free-css-tem
 WORKDIR /var/www/html
 RUN cp -rvf photogenic.zip/*
 RUN cp -rvf photogenic photogenic.zip
-CMD ["/usr/sbin/apche2", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/apache2", "-D", "FOREGROUND"]
 EXPOSE 80
