@@ -1,10 +1,6 @@
-FROM centos:latest
-RUN apt install apache2 -y \
-MAINTAINER furkan.shaikh2016@gmail.com
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip  /var/www/html/
-WORKDIR /var/www/html
+FROM nginx:latest
+RUN apt-get update && apt-get install -y curl
+WORKDIR /usr/share/nginx/html
+RUN curl -L -o photogenic.zip https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip
 RUN unzip photogenic.zip
-RUN cp -rvf photogenic/*
-RUN cp -rvf photogenic photogenic.zip
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 EXPOSE 80
