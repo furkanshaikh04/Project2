@@ -1,9 +1,4 @@
 FROM centos:latest
 MAINTAINER furkan.shaikh2016@gmail.com
-ADD https://www.free-css.com/assets/files/free-css-templates/download/page254/photogenic.zip /var/www/html/
-WORKDIR /var/www/html
-RUN unzip photogenic.zip
-RUN cp -rvf photogenic/*
-RUN cp -rvf photogenic photogenic.zip
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+ADD https://github.com/furkanshaikh04/Project1.git
 EXPOSE 80
