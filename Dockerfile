@@ -1,5 +1,5 @@
 FROM centos:latest
-RUN apt install apache2 -y
+RUN apt install apache2 -y \
 MAINTAINER furkan.shaikh2016@gmail.com
-ADD https://github.com/furkanshaikh04/Project1.git
+ADD https://github.com/furkanshaikh04/Project1.git /var/www/html/
 EXPOSE 80
