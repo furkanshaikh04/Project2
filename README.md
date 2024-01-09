@@ -59,24 +59,24 @@ Write scripts or configurations within the Jenkins post-build actions to manage 
 Integrate the web server configuration with Ansible or Dockerfile instructions to display the updated content automatically.
 
 ## Screenshots:
-Dockerfile created on Github Repository.
+## Dockerfile created on Github Repository.
 ![SOURCECODE](https://github.com/furkanshaikh04/Project2/assets/140544257/2d34292b-faa5-4c35-826a-88c007b8b139)
 
-Jenkins configuration for build steps and post-build actions.
-First build step:
+## Jenkins configuration for build steps and post-build actions.
+## First build step:
 ![First build step](https://github.com/furkanshaikh04/Project2/assets/140544257/79c35e70-6da3-4eaa-b93e-9faf6edf5ae0)
 
-Second build step:
+## Second build step:
 ![SECOND BUILD STEP](https://github.com/furkanshaikh04/Project2/assets/140544257/73854d33-fc33-4f87-bce9-cef6c2e2bb57)
 
-Post build action:
+## Post build action:
 ![POST BUILD ACTION](https://github.com/furkanshaikh04/Project2/assets/140544257/16dfa163-3c6a-40a3-8349-70eae605a956)
 
-Jenkins console output:
+## Jenkins console output:
 ![JENKINS CONSOLE OUTPUT](https://github.com/furkanshaikh04/Project2/assets/140544257/8627e0fb-d4e4-4acf-9783-31312ef8a814)
 
-Playbook on ansible server:
+## Playbook on ansible server:
 ![Playbook](https://github.com/furkanshaikh04/Project2/assets/140544257/db1725ab-8d1d-49db-ae69-9a369e892349)
 
-Deployed web server displaying the integrated remote content:
+## Deployed web server displaying the integrated remote content:
 ![DEPLOYED WEB SERVER](https://github.com/furkanshaikh04/Project2/assets/140544257/e50a5c7e-2cbf-462b-8a8a-bdd013498c72)
