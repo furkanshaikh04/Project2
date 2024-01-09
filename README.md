@@ -11,13 +11,6 @@ This project showcases an advanced web server deployment utilizing Docker contai
 - **Automation:** Jenkins
 - **Infrastructure:** AWS EC2 Instances
 
-## Project Structure
-
-- `/dockerfile`: Contains the Dockerfile defining the container configuration.
-- `/ansible_playbooks`: Holds Ansible playbooks for initial setup.
-- `/scripts`: Includes scripts used for deployment and automation.
-- `/html_content`: Contains HTML content for the web server.
-
 ## Project Details
 
 - **Dockerfile Configuration:** The Dockerfile integrates a remote CSS template to enhance the visual presentation of the web server.
@@ -25,6 +18,10 @@ This project showcases an advanced web server deployment utilizing Docker contai
 - **Optimized Infrastructure:** The project uses only three AWS EC2 instances, demonstrating efficient resource allocation.
 
 ## Usage
+Implemented containerized deployment using Docker, significantly optimizing resource usage and streamlining the deployment process.
+Utilized Jenkins for job automation, integrating it into the project pipeline for seamless builds and deployment.
+Integrated a remote CSS template within the Dockerfile configuration in the GitHub repository, enhancing the visual aesthetics and user interface of the deployed web server.
+Managed infrastructure efficiently with a lean footprint by utilizing only three instances on AWS.
 
 ### Prerequisites
 
